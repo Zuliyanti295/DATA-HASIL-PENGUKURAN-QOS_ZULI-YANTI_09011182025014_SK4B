@@ -1,0 +1,45 @@
+Tugas 
+- Pengukuran parameter QoS yaitu throughput, delay, packet loss dan jitter
+- menganalisis lalu lintas jaringan  komputer (sebagai contoh saat anda mengakses situs seperti youtube, game ataupun saat anda melakukan video conference.)
+- Data berupa file (.pcap) yang anda dapat tadi anda cari Qos nya ya
+
+Throughput: 
+	= jumlah bytes:time span 
+	= 1516677 bytes : 20.759 s
+	= 73061 Bytes/s
+	= 73,061 KB/s(DIBULATKAN MENJADI 73)
+	= 73,061 x 8
+	= 584,488 Kb/s(dibulatkan)
+	= 584
+sesuai dengan data yang ada
+
+Packet loss : 
+	={(paket yang dikirim - paket yang diterima)/Paket yang diterima}x100
+	= (1446 - 1446/1446)x100
+	= (0/1446)x100
+	= 0
+kategori sangat bagus 
+
+
+delay 
+time 2-time 1
+jumlah total delay = 20,759139
+rata-rata delay = total delay/jumlah paket
+		= 20,759139/1446 s
+		= 0,014356251 s
+		= 0,014356251 x 1000 ms
+		= 14,356251 ms
+kategori excellent
+
+jitter
+delay 1(delay baris 1- baris 2)
+delay 2 - delay 1
+total jiter = 20,663404 s 
+rata-rata jiter = total jitter/jumlah paket
+		= 0,014290044 s
+		= 0,014290044 x 1000
+		= 14,290044 ms
+kategori bagus
+
+
+
